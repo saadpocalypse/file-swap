@@ -1,0 +1,18 @@
+{
+  "name": "convert-file",
+  "version": "1.0.0",
+  "description": "A utility package for file format conversions",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "file",
+    "conversion",
+    "convert",
+    "format"
+  ],
+  "author": "",
+  "license": "MIT"
+} 
