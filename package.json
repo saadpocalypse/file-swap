@@ -1,7 +1,7 @@
 {
   "name": "file-swap",
   "version": "1.0.0",
-  "description": "A versatile file conversion utility",
+  "description": "A versatile file conversion tool",
   "main": "index.js",
   "type": "module",
   "bin": {
