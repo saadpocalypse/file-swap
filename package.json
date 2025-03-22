@@ -1,18 +1,42 @@
 {
-  "name": "convert-file",
+  "name": "file-swap",
   "version": "1.0.0",
-  "description": "A utility package for file format conversions",
+  "description": "A versatile file conversion utility",
   "main": "index.js",
+  "type": "module",
+  "bin": {
+    "file-swap": "./index.js"
+  },
   "scripts": {
-    "test": "node index.js",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "file",
     "conversion",
-    "convert",
-    "format"
+    "image",
+    "text",
+    "ico",
+    "png",
+    "jpg",
+    "svg",
+    "webp",
+    "json",
+    "yaml",
+    "csv",
+    "markdown"
   ],
-  "author": "",
-  "license": "MIT"
-} 
+  "author": "Ahmad Saad",
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.33.2",
+    "yaml": "^2.3.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saadpocalypse/file-swap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/saadpocalypse/file-swap/issues"
+  },
+  "homepage": "https://github.com/saadpocalypse/file-swap#readme"
+}
