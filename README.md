@@ -41,6 +41,9 @@ To use **file-swap**:
 
   
 
+<br>
+
+
   
 
 1. Install the package globally:
@@ -53,6 +56,9 @@ npm install file-swap
 
   
 
+<br>
+
+
   
 
 2. Convert files using the following syntax:
@@ -64,6 +70,9 @@ npx file-swap <filepath> <target-format> [options]
 ```
 
   
+
+<br>
+
 
   
 
@@ -85,6 +94,8 @@ npx file-swap logo.png ico --l  # large (48x48)
 # Convert and delete the original
 npx file-swap image.jpg png -d
 ```
+
+<br>
 
 You can also view a help section by running the following command:
 ```bash
@@ -129,7 +140,7 @@ npx file-swap --help
 - ICO (with size options: small, medium, large)
 
   
-
+<br>
   
 
 ###  Text Formats
@@ -186,6 +197,7 @@ npx file-swap --help
 -  **Special Characters**: Automatically escaped in CSV output
 
   
+<br>
 
   
 
@@ -293,6 +305,9 @@ Contributions are welcome! Here's how you can help:
 5. Submit a pull request
 
   
+
+<br>
+
 
   
 

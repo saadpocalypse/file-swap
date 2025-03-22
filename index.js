@@ -11,7 +11,7 @@ const __dirname = dirname(__filename);
 
 async function main() {
     const args = process.argv.slice(2);
-    const helpText = `file-swap - A file conversion tool
+    const helpText = `\nfile-swap - A file conversion tool
 
 Usage: file-swap <filepath> <target-format> [options]
 
@@ -49,14 +49,8 @@ Examples:
     file-swap logo.png ico -m    # medium (32x32)
     file-swap logo.png ico -l    # large (48x48)
 
-    # Convert between text formats
-    file-swap data.json yaml
-    file-swap config.yaml json
-    file-swap document.txt md
-    file-swap data.json csv      # Convert JSON to CSV
-
     # Delete source file after conversion
-    file-swap image.jpg png -d`;
+    file-swap image.jpg png -d\n`;
 
     if (args.length < 2 || args[0] === '--help' || args[0] === '-h') {
         console.log(helpText);
