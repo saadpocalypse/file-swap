@@ -85,11 +85,11 @@ Example commands:
 npx file-swap image.jpg png
 
 # Convert to ICO with size option
-npx file-swap logo.png ico --s  # small (16x16)
+npx file-swap logo.png ico -s  # small (16x16)
 
-npx file-swap logo.png ico --m  # medium (32x32)
+npx file-swap logo.png ico -m  # medium (32x32)
 
-npx file-swap logo.png ico --l  # large (48x48)
+npx file-swap logo.png ico -l  # large (48x48)
 
 # Convert and delete the original
 npx file-swap image.jpg png -d

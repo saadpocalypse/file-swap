@@ -17,7 +17,7 @@ Usage: file-swap <filepath> <target-format> [options]
 
 Options:
     -d, --delete    Delete source file after conversion
-    --help, -h      Show this help message
+    -h, --help      Show this help message
 
     ICO Size Options (required for ICO conversion):
     -s             Create 16x16 ICO (small)
